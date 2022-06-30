@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://salvationkevin.github.io/</id>
-    <title>kevin.feng</title>
-    <updated>2022-06-23T07:01:23.550Z</updated>
+    <title>kevin feng</title>
+    <updated>2022-06-30T03:18:02.617Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://salvationkevin.github.io/"/>
     <link rel="self" href="https://salvationkevin.github.io/atom.xml"/>
     <subtitle>独立咨询顾问、定性研究员、民族志研究员、共创工作坊引导师。不定期分享主题阅读内容，涵盖消费行为与文化趋势、用户体验、产品与服务创新、公益咨询等</subtitle>
     <logo>https://salvationkevin.github.io/images/avatar.png</logo>
     <icon>https://salvationkevin.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, kevin.feng</rights>
+    <rights>All rights reserved 2022, kevin feng</rights>
     <entry>
         <title type="html"><![CDATA[思维 | Job-To-Be-Done理论&实践：重要人物脉络篇]]></title>
         <id>https://salvationkevin.github.io/post/si-wei-or-job-to-be-done-li-lun-andshi-jian-chong-yao-ren-wu-mai-luo-pian/</id>
