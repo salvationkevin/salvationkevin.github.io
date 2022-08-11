@@ -1,0 +1,166 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>关于 | kevin feng</title>
+<link rel="shortcut icon" href="https://salvationkevin.github.io//favicon.ico?v=1660185960377">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://salvationkevin.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="关于 | kevin feng - Atom Feed" href="https://salvationkevin.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+欢迎来到我的小站，很高兴遇见你！🤝
+
+🙎‍♂ 职场七年，自由职业七年。先后在南京、上海和北京求学、生活及工作。自2015年从上海移居成都至今也已七年。提前十年落实四十岁后定居成都的人生规划。
+👨‍💻 目前仍继续以一名独立咨询与研究..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://salvationkevin.github.io/">
+  <img class="avatar" src="https://salvationkevin.github.io//images/avatar.png?v=1660185960377" alt="">
+  </a>
+  <h1 class="site-title">
+    kevin feng
+  </h1>
+  <p class="site-description">
+    A practitioner in consumer and market behavior. A qualitative researcher, moderator, facilitator, and business strategist. Help businesses get their insights, customer experience, product and service innovation right.
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              关于
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-04-03
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <blockquote>
+<p>欢迎来到我的小站，很高兴遇见你！🤝</p>
+</blockquote>
+<p>🙎‍♂ 职场七年，自由职业七年。先后在南京、上海和北京求学、生活及工作。自2015年从上海移居成都至今也已七年。提前十年落实四十岁后定居成都的人生规划。</p>
+<p>👨‍💻 目前仍继续以一名独立咨询与研究顾问的身份继续从事市场研究和管理咨询工作。除商业领域外，自2017年以来也积极投入时间与精力，参与和陪伴<a href="https://theabconline.org/"><strong>ABC美好社会咨询社</strong></a>，为从事公益事业的主体（既包括社会组织、非营利机构、政府部门，也包括个人）提供研究与咨询服务。</p>
+<p>✍️ 本站不定期分享所读所感，主题散漫，涉及商业、文化、咨询、心理、公益、创新等话题。</p>
+<p>✉️ 联系：<a href="mailto:kevin@curiousmind.cn">kevin@curiousmind.cn</a></p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://salvationkevin.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
